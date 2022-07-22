@@ -1,4 +1,7 @@
-node_modules
+AWS/node_modules
+AWS/public/node_modules/**
+SERVER/node_modules
+SERVER/public/node_modules/**
 .env
 .serverless
 credentials.json
