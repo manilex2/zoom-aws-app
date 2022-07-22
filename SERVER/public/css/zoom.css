@@ -1,0 +1,54 @@
+.meeting-title {
+    color: #fff;
+}
+
+.main-content {
+    background-color: #232323 !important;
+}
+
+.align-middle.av-preview-container {
+    width: auto !important;
+}
+
+.media-preview-control {
+    background-color: #232323 !important;
+}
+
+.zm-btn.joinWindowBtn.btn.btn-primary.btn-block.btn-lg.submit.zm-btn--default.zm-btn__outline--blue {
+    background-color: #ff9900 !important;
+    border-color: #ff9900 !important;
+}
+
+.zm-btn.joinWindowBtn.btn.btn-primary.btn-block.btn-lg.submit.zm-btn--default.zm-btn__outline--blue:hover {
+    background-color: #ff6600 !important;
+    border-color: #ff6600 !important;
+}
+
+#zmmtg-root {
+    background-color: #232323 !important;
+}
+
+.zm-btn.zm-btn-legacy.zm-btn--primary.zm-btn__outline--blue {
+    background-color: #ff9900 !important;
+}
+
+.zm-btn.zm-btn-legacy.zm-btn--primary.zm-btn__outline--blue:hover {
+    background-color: #ff6600 !important;
+}
+
+.zm-modal.zm-modal-legacy {
+    max-width: 390px;
+    width: auto;
+}
+
+.mini-layout-body p {
+    color: #fff !important;
+}
+
+div.controls.waiting-pannel-btn > button.zm-btn.joinWindowBtn.btn.btn-primary.btn-block.btn-lg.submit.zm-btn--default.zm-btn__outline--blue.zm-btn--disabled + button.zm-btn.joinWindowBtn.leaveWaitingBtn.btn.btn-primary.btn-block.btn-lg.submit.zm-btn--default.zm-btn__outline--blue {
+    display: none;
+}
+
+div.controls.waiting-pannel-btn > button.zm-btn.joinWindowBtn.btn.btn-primary.btn-block.btn-lg.submit.zm-btn--default.zm-btn__outline--blue + button.zm-btn.joinWindowBtn.leaveWaitingBtn.btn.btn-primary.btn-block.btn-lg.submit.zm-btn--default.zm-btn__outline--blue {
+    display: none;
+}

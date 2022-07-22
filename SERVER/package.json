@@ -1,0 +1,33 @@
+{
+  "name": "zoom-aws-app",
+  "version": "1.0.0",
+  "description": "App de integración de Zoom en AWS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "build": "npm install && rollup -c && cd .. && cd AWS && npm install && rollup -c"
+  },
+  "author": "Manuel Pereira",
+  "license": "ISC",
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^22.0.1",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@zoomus/websdk": "^2.5.0",
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsrsasign": "^10.5.26",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.2",
+    "redux": "^4.2.0",
+    "redux-thunk": "^2.4.1",
+    "rollup-plugin-inject-process-env": "^1.3.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19"
+  }
+}

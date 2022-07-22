@@ -1,0 +1,7 @@
+node_modules
+.env
+.serverless
+credentials.json
+*.zip
+package-lock.json
+.DS_Store
