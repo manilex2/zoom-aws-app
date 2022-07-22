@@ -1,7 +1,9 @@
 AWS/node_modules
 AWS/public/node_modules/**
+!AWS/public/node_modules/.gitkeep
 SERVER/node_modules
 SERVER/public/node_modules/**
+!SERVER/public/node_modules/.gitkeep
 .env
 .serverless
 credentials.json
