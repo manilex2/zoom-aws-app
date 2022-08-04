@@ -36,16 +36,17 @@ app.get(`/zoom-meeting`, (req, res) => {
     }
 });
 
-app.get(`/zoom-data/${process.env.API_KEY}/meetingId/:meetingId/name/:name/email/:email`, (req, res) => {
+app.get(`/zoom-data/${process.env.API_KEY}/meetingId/:meetingId/pwd/:pwd/name/:name/email/:email`, (req, res) => {
     const name = req.params['name'];
     const email = req.params['email'];
     const meetingId = req.params['meetingId'];
+    const pwd = req.params['pwd'];
     const signature = generateSignature(process.env.SDK_KEY, process.env.SDK_SECRET, meetingId, process.env.MEETING_ROLE);
     res.json({
         sdkKey: process.env.SDK_KEY,
         signature: signature,
         meetingNumber: meetingId,
-        password: process.env.MEETING_PWD,
+        password: pwd,
         userName: name,
         role: process.env.MEETING_ROLE,
         email: email,

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
-    "build": "npm install && rollup -c && cd .. && cd AWS && npm install && rollup -c"
+    "build": "npm install && rollup -c"
   },
   "author": "Manuel Pereira",
   "license": "ISC",

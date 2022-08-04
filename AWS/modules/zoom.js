@@ -7,11 +7,12 @@ const meetingID = urlParams.get('meetingId');
 const nameParam = urlParams.get('name');
 const emailParam = urlParams.get('email');
 const API_KEY = urlParams.get('apiKey');
+const pwd = urlParams.get('pwd');
 
 var meetingConfig = {};
 
 const getData = async function () {
-    const data = await fetch(`/zoom-data/${API_KEY}/meetingId/${meetingID}/name/${nameParam}/email/${emailParam}`)
+    const data = await fetch(`/zoom-data/${API_KEY}/meetingId/${meetingID}/pwd/${pwd}/name/${nameParam}/email/${emailParam}`)
     .then((res) => {
         return res.json();
     })
